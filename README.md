@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<pre style="color:#3b82f6; font-weight:600;">
+██████╗ ██╗     ██╗   ██╗███████╗██████╗ ██████╗ ██╗     ██╗███╗   ██╗████████╗
+██╔══██╗██║     ██║   ██║██╔════╝██╔══██╗██╔══██╗██║     ██║████╗  ██║╚══██╔══╝
+██████╔╝██║     ██║   ██║█████╗  ██████╔╝██████╔╝██║     ██║██╔██╗ ██║   ██║   
+██╔══██╗██║     ██║   ██║██╔══╝  ██╔═══╝ ██╔══██╗██║     ██║██║╚██╗██║   ██║   
+██████╔╝███████╗╚██████╔╝███████╗██║     ██║  ██║███████╗██║██║ ╚████║   ██║   
+╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   
+
+Blueprint — AI-native UI builder for real applications
+</pre>
+
+Blueprint is an AI UI builder that turns ideas into structured, production-ready interfaces — not random mockups, not throwaway components.
+
+It focuses on real-world app architecture, clean component structure, and developer-friendly output that you can actually ship.
+
+---
+
+## Why Blueprint?
+
+Most AI UI tools optimize for visuals.  
+Blueprint optimizes for engineering reality.
+
+- Predictable component structure  
+- Clean layouts aligned with modern design systems  
+- Output meant to live inside real codebases  
+- Built for iteration, not screenshots  
+
+If you care about maintainability, extensibility, and clarity, this is for you.
+
+---
+
+## Features
+
+### Idea → Interface
+Describe what you want. Blueprint generates structured UI layouts, not pixels.
+
+### Production-ready output
+Clean components, sensible layout hierarchy, reusable patterns.
+
+### Modern stack
+Built on Next.js, TypeScript, Tailwind, and modern tooling.
+
+### Design-system friendly
+Works well with shadcn/ui and component-driven workflows.
+
+### Extensible by default
+Generated UI is meant to be edited, evolved, and owned by developers.
+
+---
+
+## What Blueprint Is (and Isn’t)
+
+### Blueprint is:
+- An AI-assisted UI builder for real apps  
+- A productivity multiplier for frontend development  
+- A starting point, not a black box  
+
+### Blueprint is not:
+- A no-code toy  
+- A design mockup generator  
+- A locked-in visual editor  
+
+You own the code. Always.
+
+---
+
+## Tech Stack
+
+- Next.js (App Router)  
+- TypeScript  
+- Tailwind CSS  
+- Prisma  
+- Bun / Node  
+- ESLint + modern tooling  
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
+### Install dependencies
 ```bash
-npm run dev
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run development server
+```
+npm run dev
+# or
+bun dev
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+Open
+```
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+Start editing UI logic inside
+```
+app/page.tsx
+```
 
-## Learn More
+###Project Structure
+```
+src/
+ ├─ app/            # App Router pages
+ ├─ components/     # Reusable UI components
+ ├─ lib/            # Helpers & utilities
+ └─ styles/         # Global styling
+prisma/             # Database schema & config
+public/             # Static assets
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT License — use it, fork it, build on it.
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Built by Ashutoshx7 Github https://github.com/Ashutoshx7
+Focused on developer-first tools, systems thinking, and long-term maintainability.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Blueprint is not trying to replace designers or developers.
+### It’s here to remove friction between ideas and implementation.
+
+
