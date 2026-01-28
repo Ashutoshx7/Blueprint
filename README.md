@@ -1,13 +1,5 @@
-<pre style="color:#3b82f6; font-weight:600;">
-██████╗ ██╗     ██╗   ██╗███████╗██████╗ ██████╗ ██╗     ██╗███╗   ██╗████████╗
-██╔══██╗██║     ██║   ██║██╔════╝██╔══██╗██╔══██╗██║     ██║████╗  ██║╚══██╔══╝
-██████╔╝██║     ██║   ██║█████╗  ██████╔╝██████╔╝██║     ██║██╔██╗ ██║   ██║   
-██╔══██╗██║     ██║   ██║██╔══╝  ██╔═══╝ ██╔══██╗██║     ██║██║╚██╗██║   ██║   
-██████╔╝███████╗╚██████╔╝███████╗██║     ██║  ██║███████╗██║██║ ╚████║   ██║   
-╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   
 
-Blueprint — AI-native UI builder for real applications
-</pre>
+<img width="1095" height="463" alt="image" src="https://github.com/user-attachments/assets/8c15a923-f39f-4489-9b39-1dfdd62c3515" />
 
 Blueprint is an AI UI builder that turns ideas into structured, production-ready interfaces — not random mockups, not throwaway components.
 
@@ -125,5 +117,6 @@ Focused on developer-first tools, systems thinking, and long-term maintainabilit
 
 ### Blueprint is not trying to replace designers or developers.
 ### It’s here to remove friction between ideas and implementation.
+
 
 
